@@ -1,0 +1,109 @@
+.myLinksDiv{
+    min-height: 150px;
+    /* height: 200px; */
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    overflow-x: auto;
+    gap: 20px;
+    margin-bottom: 100px;
+    overflow: hidden;
+    position: sticky;
+    z-index: 200;
+    top: 90px;
+    padding-top: 20px;
+    background-color: aliceblue;
+}
+
+.myLinksDivTitle{
+    font-size: 25px;
+    color:rgb(255, 255, 255);
+    color: blueviolet;
+    font-family: "Outfit", sans-serif;
+    position: relative;
+    z-index: 100;
+    word-spacing: 15px;
+    margin: 80px 0px;
+    transform: translateX(-120vw);
+    transition: 0.5s;
+    /* margin-top: 200px; */
+}
+
+
+.myLinksDivTitle.show{
+    transform: translateX(0%);
+}
+
+
+.myLinksDivTitle::before{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(2deg);
+    height: 40px;
+    width: 200px;
+    z-index: -100;
+    /* background-color: rgb(132, 0, 255); */
+    border: 2px dashed blueviolet;
+}
+
+.myLinksDiv .imgDiv{
+    height:100px;
+    min-width: 100px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Outfit", sans-serif;
+    text-align: center;
+    background-color: aliceblue;
+    transform: translateY(250%);
+    transition: 0.5s;
+}
+
+
+
+.myLinksDiv .imgDiv.show{
+    transition-delay: calc(var(--i)*0.15s);
+    transform: translateY(0%);
+
+}
+
+.myLinksDiv .imgDiv img{
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid var(--lightVi);
+}
+
+
+
+@media screen  and (max-width:1100px) {
+    .myLinksDiv{
+        flex-wrap: wrap;
+        overflow: hidden;
+        z-index: -200;
+    }
+}
+
+
+@media screen  and (max-width:600px) {
+    .myLinksDiv{
+        height: auto;
+    }
+}
+
+
+
+@media screen  and (max-width:400px) {
+    .myLinksDivTitle{
+        font-size: 20px;
+        word-spacing: 5px;
+    }
+    .myLinksDivTitle::before{
+        height: 30px;
+        width: 170px;
+    }
+}

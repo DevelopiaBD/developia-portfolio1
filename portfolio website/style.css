@@ -1,0 +1,284 @@
+@import "./mainDiv.css";
+@import "./tagsAndOthersMainDiv.css";
+@import "./myLinksDivExpertice.css";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+:root{
+    --gr:rgb(29, 216, 123);
+    --lightVi: rgb(135, 70, 215);
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Outfit:wght@564&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Outfit:wght@564&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+html{
+    scroll-behavior: smooth;
+
+}
+
+
+body{
+    /* background-color: var(--gr); */
+    background-color: aliceblue;
+}
+
+.container{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* overflow-x: hidden; */
+    transition: 0.5s;
+    /* background-color: aliceblue; */
+
+}
+
+
+
+
+.navbarFullDiv{
+    height: 90px;
+    width: 100%;
+    position: sticky;
+    top: 0px;
+    z-index: 1000;
+    display: flex;
+    transition: 0.5s;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    /* scale:0 1; */
+    /* animation: scroll linear; */
+    /* animation-timeline: scroll(); */
+    /* background-color: rgb(255, 255, 255); */
+    box-shadow: 2px 2px 8px 0.2px rgb(216, 229, 255);
+
+}
+
+/* 
+@keyframes scroll {
+    to{
+        scale: 1 1;
+    }
+} */
+
+
+.navbarFullDiv .toggler{
+    display: none;
+}
+.navbarFullDiv .toggler li{
+    font-size: 30px;
+}
+
+
+.navbarFullDiv .toggler .togBtn{
+    height: 30px;
+    width: 60px;
+    border-radius: 20px;
+    position: relative;
+    
+    background-color: rgb(228, 240, 250);
+}
+
+.navbarFullDiv .toggler .togBtn::before{
+    position: absolute;
+    content: "";
+    height: 28px;
+    width: 28px;
+    top: 50%;
+    left: 2px;
+    transform: translateY(-50%);
+    background-color: rgb(103, 103, 103);
+    border-radius: 50%;
+    transition: 0.2s;
+}
+
+
+.navbarFullDiv .toggler .togBtn.active::before{
+    left: 30px;
+    
+}
+
+
+.navbarFullDiv .navbarStart{
+    height: auto;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+
+.navbarFullDiv .logoTitle{
+
+    font-size: 20px;
+    width: 180px;
+    /* padding: 5px; */
+    height: 40px;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+
+    border-top-left-radius: 5px;
+    border-top-right-radius: 50px;
+    color: rgb(135, 70, 215);
+    /* background-color: rgb(0, 211, 148); */
+    font-family: "Outfit", sans-serif;
+
+    /* color: var(--gr); */
+    /* background-color: white; */
+}
+
+.navbarFullDiv .navbar{
+    height: 40px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content:end;
+    gap: 10px;
+    font-family: "Outfit", sans-serif;
+    /* background-color: aliceblue; */
+    /* background-color: red; */
+}
+
+
+.navbar a{
+    height: 30px;
+    width: 100px;
+    text-decoration: none;
+    display: flex;
+    color: black;
+    align-items: center;
+    justify-content: center;
+    font-family: "Outfit", sans-serif;
+    font-size: 15px;
+
+}
+
+.navbar a.github{
+    color: white;
+    background-color: rgb(58, 20, 129);
+}
+
+.navbar a:hover{
+    background-color: var(--lightVi);
+    color: white;
+}
+
+
+
+.experArrow{
+    position: fixed;
+    top: 80vh;
+    left: 50%;
+    height: 50px;
+    transition: 0.3s;
+    /* z-index: -300; */
+}
+
+
+        .experArrow.remove{
+            opacity: 0;
+        }
+
+
+.aboutTobefFooter{
+    background-color: red;
+}
+
+
+@media screen and (max-width:1030px) {
+    .container{
+        /* background-color: rgb(223, 255, 223); */
+    }
+
+    /* .navbarFullDiv{
+        width: ;
+    } */
+
+
+    .experArrow{
+        display: none;
+    }
+
+    
+    .navbarFullDiv .navbar{
+        position: fixed;
+        top: 100px;
+        right: 10px;
+        height: 300px;
+        width: 150px;
+
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 30px;
+        backdrop-filter: blur(10px);
+        background-color: rgb(255, 255, 255);
+
+    }
+
+    .navbarFullDiv .logoTitle{
+        height: 30px;
+        width: 140px;
+        font-size: 20px;
+        font-family: "Outfit", sans-serif;
+
+    }
+
+   
+    .navbarFullDiv .toggler{
+        display: block;
+    }
+
+    .navbarFullDiv .toggleNav{
+        right: -100%;
+        transition: 0.3s;
+    }
+
+    .navbarFullDiv .toggleNav.active{
+        display: flex;
+        right: 10px;
+        
+    }
+
+    .navbarFullDiv .togBtn.active{
+        background-color: rgb(175, 255, 175);
+
+    }
+
+    .navbarFullDiv .toggler .togBtn.active::before{
+        background-color: rgb(14, 195, 14);
+    }
+
+    .navbarFullDiv .toggler li{
+        transition: 0.5s;
+    }
+}
+
+
+
+@media screen and (max-width:270px) {
+  
+}
+
+
+
+
+/* Main web cover Starts */
+
