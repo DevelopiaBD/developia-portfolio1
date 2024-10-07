@@ -113,20 +113,7 @@
 }
 
 
-/* .aboutMeSection .aboutFull .myImage::after{
-    position: absolute;
-    content: "";
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    background-color: rgba(120, 2, 231, 0.685);
 
-} */
-
-.aboutMeSection .aboutFull .MyDesc{
-    
-}
 
 .mainDiv, .secondMaindiv{
     width: 100%;
@@ -136,13 +123,6 @@
     justify-content: center;
     font-family: "Outfit", sans-serif;
     background-color: aliceblue;
-
-}
-
-.mainDiv{
-    /* background: linear-gradient(rgba(70, 213, 134, 0.882), rgba(0, 215, 111, 0.828)), url("./images/nature-3616194_1920.jpg") 40%; */
-    /* background: radial-gradient( rgb(1, 255, 77), rgba(16, 189, 79, 0.828)),  url("./images/nature-3616194_1920.jpg") 40%; */
-    /* background-size: cover; */
 
 }
 
@@ -393,13 +373,8 @@
     opacity: 1;
 }
 
-.secondMaindiv .secDiv1 .iconsAndDes:hover{
-}
 
-/* .secondMaindiv .secDiv1 .iconsAndDes.showAnim{
-    transform: scale(1);
-    opacity: 1;
-} */
+
 
 .secondMaindiv .secDiv1 .iconsAndDes .icon_title {
     height: 30%;
@@ -616,7 +591,6 @@
             align-items: center;
             justify-content: center;
             padding: 10px 10px;
-            /* background-color: rgb(255, 234, 0); */
             position: relative;
             margin-bottom: 100px;
             
