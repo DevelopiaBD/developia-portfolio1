@@ -74,6 +74,7 @@
     height: auto;
     border-radius: 20px;
     color: white;
+    text-align: center;
     background-color: var(--lightVi);
 
 }
@@ -130,14 +131,13 @@
 .mainDiv .innerDiv1{
     width: 35%;
     min-height: calc(100vh - 180px);
-    min-height: 400px;
+    min-height: 500px;
     /* overflow: hidden; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     position: relative;
     gap: 20px;
-    /* background-color: rgb(239, 241, 255); */
 
 }
 
@@ -418,6 +418,26 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width:1130px) {
     
     .mainDiv{
@@ -434,7 +454,7 @@
     .mainDiv .innerDiv1{
         width: 80%;
         min-height: calc(100vh - 90px);
-        min-height: 400px;
+        min-height: 500px;
         height: 500px;
         overflow-x: hidden;
         display: flex;
@@ -486,7 +506,7 @@
     .mainDiv .innerDiv2::before{
         content: "Make Your Website Easily with Easy Deal";
         position: absolute;
-        top: 15%;
+        top: 120px;
         left: 50%;
         transform: translateX(-50%);
         /* background-color: #4415ff; */
@@ -507,24 +527,28 @@
 
 
     .mainDiv .innerDiv2 .coverImg{
-        height: 400px;
+        height: auto;
+        min-height: 300px;
         width: 400px;
         margin-top: 20px;
         /* border-radius: 50%; */
         overflow: hidden;
         position: relative;
+
     }
+
+
     
     .mainDiv .innerDiv2 .coverImg::before{
         content: "";
         height: 25px;
         width: 80%;
         border-radius: 50%;
-        bottom: 22%;
+        bottom: 10%;
         left: 50%;
         transform: translateX(-50%);
         background-color: rgb(115, 37, 248);
-        filter: blur(10px);
+        filter: blur(14px);
         position: absolute;
     }
     
@@ -667,3 +691,54 @@
 
     
 }
+
+@media screen and  (max-width:400px){
+    
+    .mainDiv .innerDiv1{
+        overflow: visible;
+    }
+    .mainDiv .innerDiv1 .socialMedia{
+        bottom: -20px;
+    }
+
+    .mainDiv .innerDiv2 .coverImg::before{
+        bottom: 20%;
+    }
+
+    .mainDiv .innerDiv2{
+        height: 400px;
+        margin-top: 100px;
+    }
+    .mainDiv .innerDiv2::before{
+
+        top: 30px;
+    }
+    
+}
+
+
+
+@media screen and  (max-width:300px){
+
+
+    .mainDiv{
+        margin-top: 30px;
+    }
+    .mainDiv .innerDiv1 .socialMedia{
+        display: none;
+    }
+    
+    .mainDiv .innerDiv2::before{
+        font-size: 10px;
+        top: 0;
+    }
+    .mainDiv .innerDiv2{
+        height: 300px;
+        padding: 10px;
+        margin-top: 100px;
+    }
+    .mainDiv .innerDiv2 .coverImg::before{
+        display: none;
+    }
+}
+

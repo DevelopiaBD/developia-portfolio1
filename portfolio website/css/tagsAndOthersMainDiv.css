@@ -27,8 +27,15 @@
     border-bottom: 2px solid blueviolet;
     padding: 10px;
     margin-bottom: 100px;
+    overflow: hidden;
+    transform: translateX(150%);
+    transition: 0.5s;
 }
 
+
+.secondMaindiv .secDiv2 .serviceTitle.show{
+    transform: translateX(0%);
+}
 
 .tagsAndOthersMainDiv{
     /* height: 100%; */

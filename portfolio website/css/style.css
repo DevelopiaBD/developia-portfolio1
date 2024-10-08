@@ -186,6 +186,7 @@ body{
     position: fixed;
     top: 80vh;
     left: 50%;
+    transform: translateX(-50%);
     height: 50px;
     transition: 0.3s;
     /* z-index: -300; */
@@ -203,19 +204,9 @@ body{
 
 
 @media screen and (max-width:1030px) {
-    .container{
-        /* background-color: rgb(223, 255, 223); */
-    }
+  
 
-    /* .navbarFullDiv{
-        width: ;
-    } */
-
-
-    .experArrow{
-        display: none;
-    }
-
+  
     
     .navbarFullDiv .navbar{
         position: fixed;
@@ -273,8 +264,12 @@ body{
 
 
 
-@media screen and (max-width:270px) {
-  
+@media screen and (max-width:1130px) {
+    .experArrow{
+        position: inherit;
+        display: none;
+    }
+
 }
 
 

@@ -61,6 +61,7 @@ toggle.addEventListener("click", ()=>{
 
 const aboutMeSection = document.querySelector(".aboutMeSection");
 const myLinksDivTitle = document.querySelectorAll(".myLinksDivTitle");
+const serviceTitle = document.querySelectorAll(".serviceTitle");
 
 
 
@@ -137,6 +138,19 @@ console.log(window.scrollY);
                 // alert(8458)
             }  else {
                 myLinksDT.classList.remove('show');
+            }
+    })
+    
+    serviceTitle.forEach((serveTt, i)=>{
+        
+        const abcdef = serveTt.getBoundingClientRect().top;
+            const triggerBottom = window.innerHeight / 1;
+    
+            if (abcdef < triggerBottom) {
+                serveTt.classList.add('show');
+                // alert(8458)
+            }  else {
+                serveTt.classList.remove('show');
             }
     })
     
