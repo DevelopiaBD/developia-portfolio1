@@ -187,11 +187,8 @@
     line-height: 25px;
     word-spacing: 5px;
     color: gray;
-    /* color: var(--lightVi); */
     align-items: start;
-    font-family: "Cookie", cursive;
-
-    /* background-color: green; */
+    font-family: "Outfit", sans-serif;
 }
 
 .mainDiv .innerDiv1 .btnJoins{
