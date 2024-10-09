@@ -212,9 +212,10 @@ body{
         position: fixed;
         top: 100px;
         right: 10px;
-        height: 300px;
+        min-height: 300px;
+        height: auto;
         width: 150px;
-
+        padding: 20px 0px;
         flex-direction: column;
         align-items: center;
         justify-content: center;
