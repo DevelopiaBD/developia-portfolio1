@@ -65,9 +65,10 @@ const serviceTitle = document.querySelectorAll(".serviceTitle");
 
 
 
+window.addEventListener("scroll", (e)=>{
+  
+    console.log(window.innerHeight < 250);
 
-window.addEventListener("scroll", ()=>{
-console.log(window.scrollY);
 
     if(window.scrollY > 80){
         console.log("80");
@@ -85,6 +86,7 @@ console.log(window.scrollY);
         const triggerBottom = window.innerHeight / 1.15;
         section.style.transitionDelay=`${i * 0.15}s`
 
+        
         if (sectionTop < triggerBottom) {
             section.classList.add('visible');
             // alert(8458)
@@ -113,15 +115,25 @@ console.log(window.scrollY);
 
 
 
+
+    
     myLinkimgDiv.forEach(tags=>{
         const sectionTop = tags.getBoundingClientRect().top;
         const triggerBottom = window.innerHeight / 0.8;
 
-        if (sectionTop < triggerBottom) {
+
+        if(window.innerHeight < 250){
             tags.classList.add('show');
-            // alert(8458)
-        }  else {
-            tags.classList.remove('show');
+
+        }
+        else{
+            if (sectionTop < triggerBottom) {
+                tags.classList.add('show');
+                // alert(8458)
+            }  else {
+                tags.classList.remove('show');
+            }
+            
         }
 
         // console.log(sectionTop, triggerBottom);
@@ -132,7 +144,8 @@ console.log(window.scrollY);
         
         const abcdef = myLinksDT.getBoundingClientRect().top;
             const triggerBottom = window.innerHeight / 1;
-    
+        
+        
             if (abcdef < triggerBottom) {
                 myLinksDT.classList.add('show');
                 // alert(8458)

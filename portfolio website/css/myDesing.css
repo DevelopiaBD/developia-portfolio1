@@ -93,7 +93,7 @@ nav .navbar{
 
 .bodyMainStart .desingsFullDiv{
     height: auto;
-    width: 100%;
+    width: 60%;
     min-height: 300px;
     margin-top: 100px;
     display: flex;
@@ -117,3 +117,26 @@ nav .navbar{
     margin-bottom: 10px;
     /* background-color: yellow; */
 }
+
+
+
+
+@media screen and (max-width:1000px) {
+    
+.bodyMainStart .desingsFullDiv{
+    /* background-color: red; */
+    width: 100%;
+}
+}
+@media screen and (max-width:300px) {
+
+    nav .navbar .navTitle{
+        font-size: 16px;
+    }
+    .navbar .navLinks a{
+        font-size: 10px;
+        padding: 2px 5px;
+    }    
+
+}
+

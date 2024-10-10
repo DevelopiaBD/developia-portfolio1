@@ -273,8 +273,34 @@ body{
 
 }
 
+@media screen and (max-width:250px) {
+ 
+.all250bep{
+    transform: scale(0.8);
+    font-size: 14px;
+}
+
+.all250bep::before{
+    display: none;
+}
 
 
+.myLinksDiv {
+    position: static;
+}
 
+
+.myLinksDiv .imgDiv{
+   
+}
+    /* .navbarFullDiv:only-child{
+        font-size: 10px;
+    }
+
+    .mainDiv{
+        transform: scale(0.5);
+        background-color: red;
+    } */
+}
 /* Main web cover Starts */
 
