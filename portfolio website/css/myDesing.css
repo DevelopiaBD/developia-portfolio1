@@ -199,8 +199,44 @@ nav .navbar{
     width: 100%;
 }
 }
+
+
+
+
+
+
+@media screen and (max-width:400px) {
+
+    
+    .container .bodyMainStart .desingHomeTitle .desingLinks{
+        font-size: 14px;
+        /* gap: 10px; */
+        height: auto;
+        overflow-x: auto;
+    }
+
+    .desingHomeTitle .desingLinks::-webkit-scrollbar{
+        display: none;
+    }
+    
+
+    .desingHomeTitle .desingLinks a{
+        min-width: 100px;
+        text-wrap: none;
+        /* background-color: red; */
+    }
+}
+
+
+
+
 @media screen and (max-width:300px) {
 
+
+    .desingHomeTitle .desingHomeTitlett{
+        font-size: 15px;
+    }
+    
     nav .navbar .navTitle{
         font-size: 16px;
     }
