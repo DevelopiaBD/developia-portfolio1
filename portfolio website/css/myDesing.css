@@ -120,14 +120,19 @@ nav .navbar{
     max-width: 500px;
     font-size: 15px;
     margin-top: 30px;
-    height: 30px;
+    height: 40px;
+    align-items: center;
     justify-content: space-between;
+    /* background-color: rgb(98, 158, 210); */
     background-color: aliceblue;
 }
 
 .container .bodyMainStart .desingHomeTitle .desingLinks a{
     text-decoration: none;
     color: gray;
+    display: flex;
+    align-items: center;
+    
 }
 
 
@@ -223,7 +228,7 @@ nav .navbar{
     .desingHomeTitle .desingLinks a{
         min-width: 100px;
         text-wrap: none;
-        /* background-color: red; */
+        height: 30px;
     }
 }
 
