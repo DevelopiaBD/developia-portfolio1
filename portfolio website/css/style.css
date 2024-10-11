@@ -30,8 +30,8 @@ html{
 
 
 body{
-    /* background-color: var(--gr); */
     background-color: aliceblue;
+    /* background-color: var(--gr); */
 }
 
 .container{
@@ -203,6 +203,110 @@ body{
 }
 
 
+footer{
+    min-height: 300px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Outfit", sans-serif;
+    background-color: aliceblue;
+    border-top: 10px solid rgba(137, 43, 226, 0.268);
+}
+
+.footerDivMain{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+    justify-content: center;
+    gap: 50px;
+    min-width: 70%;
+    margin-top: 20px;
+    padding: 20px;
+    /* background-color: red; */
+}
+
+
+.footerDivMain .emailDiv{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    min-width: 150px;
+    flex-wrap: wrap;
+}
+
+.footerDivMain .emailDiv .emailTitle{
+    /* background-color: rgb(12, 226, 12); */
+    /* padding: 10px; */
+    min-width: 80px ;
+    color: gray;
+    font-size: 25px;
+}
+
+.emailDiv .emailAdd{
+    user-select: all;
+}
+
+
+footer .footerDivMain .OnlineServiceProfiles{
+    /* background-color: yellow; */
+}
+
+
+footer .footerDivMain .OnlineServiceProfiles .serviceLink{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    /* background-color: red; */
+}
+
+footer .footerDivMain .OnlineServiceProfiles .serviceLink p.serviceName{
+    color: gray;
+    font-size: 25px;
+    width: 150px;
+    /* background-color: rgb(34, 227, 30); */
+}
+
+
+.footerDivMain .socialMediaDiv{
+    /* background-color: green; */
+    height: auto;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.footerDivMain .socialMediaDiv .socialMediaTitle{
+    font-size: 25px;
+    color: gray;
+    min-width: 150px;
+    /* background-color: red; */
+}
+
+.footerDivMain .socialMediaDiv a{
+    margin-right: 10px;
+}
+
+footer .footerDivMain .FstWrite{
+    margin-top: 20px;
+    
+}
+
+
+
+footer .footerDivMain .socialMediaDiv .socialMediaTitle{
+    /* margin-bottom: 20px; */
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
 @media screen and (max-width:1030px) {
   
 
@@ -273,6 +377,48 @@ body{
 
 }
 
+
+
+
+@media screen and (max-width:850px) {
+    .footerDivMain{
+        justify-content: start;
+    }
+}
+
+
+@media screen and (max-width:672px) {
+
+    
+    footer .footerDivMain{
+        justify-content: center;
+    }
+
+    footer .footerDivMain .OnlineServiceProfiles .serviceLink{
+        justify-content: center;
+        text-align: center;
+        /* background-color: rgb(255, 201, 201); */
+    }
+
+    .footerDivMain .socialMediaDiv .socialMediaTitle{
+        text-align: center;
+    }
+
+    .allFooterDiv{
+        /* background-color: red; */
+        width: 60%;
+        min-height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+
+
+
+]
 @media screen and (max-width:250px) {
  
 .all250bep{
