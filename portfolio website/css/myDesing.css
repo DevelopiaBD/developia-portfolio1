@@ -206,31 +206,56 @@ nav .navbar{
 }
 
 
+@media screen and (max-width:500px) {
+/* 
+    .desingHomeTitle .desingLinks a{
+        min-width: 100px;
+
+    } */
+
+}
 
 
 
+@media screen and (max-width:600px) {
 
-@media screen and (max-width:400px) {
-
+    .container .bodyMainStart .desingHomeTitle{
+        position: relative;
+    }
     
     .container .bodyMainStart .desingHomeTitle .desingLinks{
         font-size: 14px;
         /* gap: 10px; */
         height: auto;
         overflow-x: auto;
+        padding-right: 30px;
+        /* position: relative; */
+    }
+    
+    .container .bodyMainStart .desingLinks .fa-arrow-right{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        height:40px;
+        width: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: aliceblue;
     }
 
     .desingHomeTitle .desingLinks::-webkit-scrollbar{
         display: none;
     }
-    
 
     .desingHomeTitle .desingLinks a{
         min-width: 100px;
         text-wrap: none;
         height: 30px;
     }
+    
 }
+    
 
 
 
