@@ -1,0 +1,400 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Dancing+Script:wght@400..700&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Outfit:wght@564&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    background-image: radial-gradient( rgba(255, 255, 255, 0.863) , rgb(240, 248, 255)) , url("/portfolio website/images/bg6.png");
+    /* background-image: radial-gradient( rgba(57, 2, 255, 0.605) , rgb(0, 0, 0)) , url("/portfolio website/images/bg6.png"); */
+    background-size: auto 100%; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+.profile_covers{
+    width: 100%;
+    
+    margin-top: 60px;
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 0px;
+  
+}
+
+.profile_covers .partCovers{
+    width: 300px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* background-color: rgb(255, 255, 0); */
+}
+
+
+
+.profile_covers .partCovers.cover1{
+    /* border-left: 6px solid rgb(255, 0, 111); */
+    padding: 10px;
+    transition: 0.5s;
+    overflow: hidden;
+    position: relative;
+    height: 220px;
+    
+}
+.profile_covers .partCovers.cover1::after{
+    position: absolute;
+    content: "";
+    /* height: 100%;
+    width: 7px;
+    top: 0;
+    left: 0; */
+
+
+    width: 100%;
+    height: 5px;
+    bottom: 0;
+    left: 0;
+    border-radius: 50%;
+    z-index: 601;
+    background-color: rgb(255, 0, 111);
+    animation: flowlineMark 1s normal linear;
+}
+
+
+
+/* 
+@keyframes flowlineMark {
+    0%{
+        height: 0%;
+    }
+
+    70%{
+        height: 0%;
+    }
+    100%{
+        height: 100%;
+    }
+} */
+
+@keyframes flowlineMark {
+    0%{
+        width: 0%;
+    }
+
+    50%{
+        width: 0%;
+    }
+    
+    60%{
+        width: 100%;
+    }
+}
+
+
+
+ 
+.profile_covers .partCovers.cover1 .cv1paras{
+    margin-left: 10px;
+    
+    transform: translateY(80vw);
+    transition: 0.5s;
+    transition-delay: calc(var(--i)*0.1s);
+}
+
+.profile_covers .partCovers.cover1 .cv1paras.portfolioBtn{
+    margin-top: 10px;
+}
+.profile_covers .partCovers.cover1 .cv1paras.portfolioBtn a{
+    background-color: rgb(107, 22, 255);
+    padding: 5px 10px;
+    color: white;
+}
+
+
+
+.profile_covers .partCovers.cover1 .cv1paras.show{
+    /* transform: translateX(0%); */
+
+    transform: translateY(0%);
+
+
+}
+
+
+
+
+
+.profile_covers .partCovers.cover2{
+    border-radius: 50%;
+    overflow: hidden;
+    height: 200px;
+    width: 200px;
+    animation: profile 0.5s normal ease-in-out;
+    border-bottom : 10px solid rgb(94, 30, 255);
+
+}
+
+@keyframes profile {
+    0%{
+        /* opacity: 0; */
+        /* transform: rotateY(0deg); */
+        transform: scale(0);
+    }
+    
+    100%{
+        /* transform: rotateY(360deg); */
+        /* opacity: 1; */
+        transform: scale(1);
+    }
+}
+
+.profile_covers .partCovers.cover2 img{
+    height: 120%;
+    width: 100%;
+    /* object-fit: cover; */
+}
+
+
+
+.profile_covers .partCovers.cover3{
+    padding: 10px;
+    overflow: visible;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: rgba(255, 0, 0, 0.508); */
+}
+
+.profile_covers .partCovers.cover3 .roaf{
+    /* min-height: 150%; */
+    min-height: 100%;
+    width: 2px;
+    background-color: rgb(0, 0, 0);
+    animation: roaf 5s infinite ease-in-out;
+    transform-origin: top;
+    rotate: -35deg;
+    position: relative;
+}
+.profile_covers .partCovers.cover3 .roaf::before{
+    position: absolute;
+    content: "Welcome To DevelopiaBD";
+    bottom: 0;
+    left: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateX(-50%);
+    height: 100px;
+    width: 200px;
+    border-radius: 10px;
+    color: white;
+    border: 10px solid rgb(175, 132, 255);
+    background-color: rgb(93, 0, 255);
+}
+
+@keyframes roaf{
+    50%{
+        rotate: 35deg;
+    }
+    100%{
+        rotate: -35deg;
+    }
+    
+}
+
+
+
+
+
+
+
+.mainbodyBgSolid{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: rgba(240, 248, 255, 0.485);
+    backdrop-filter: blur(5px); */
+}
+
+
+/* favourite_desing */
+
+.favourite_desing{
+    margin-top: 140px;
+    width: 80%;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    order: 2;
+}
+
+
+.favourite_desing .fav_title{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.favourite_desing::-webkit-scrollbar{
+    display: none;
+}
+
+
+.favourite_desing .mainSliderDivFav{
+    width: auto;
+    height: auto;
+    display: flex;
+    /* transform: translateX(-218%); */
+
+}
+
+.favourite_desing .mainSliderDivFav .favouriteMainBody{
+    display: flex;
+    gap: 30px;
+    animation: slideshowFav 20s infinite 2s linear;
+    
+}
+
+
+
+@keyframes slideshowFav {
+    to{
+        transform: translateX(calc(-50% - 0.5rem));
+    }
+}
+
+
+
+
+.favourite_desing .mainSliderDivFav .fav_divs{
+    min-width: 200px;
+    width: 200px;
+    height: 230px;
+    background-color: rgb(202, 165, 255);
+}
+
+
+.favourite_desing .favouriteMB2{
+    margin-left: 30px;
+}
+/* favourite_desing */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media Screen........................ */
+
+
+
+@media screen and (max-width:1100px) {
+    .profile_covers{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    
+    .profile_covers .partCovers{
+        width: 300px;
+        height: 250px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* background-color: rgb(255, 255, 0); */
+    }
+    
+    
+    
+    .profile_covers .partCovers.cover1{
+        /* border-left: 6px solid rgb(255, 0, 111); */
+        padding: 10px;
+        transition: 0.5s;
+        overflow: hidden;
+        position: relative;
+        order: 2;
+        text-align: center;
+    }
+
+    .profile_covers .partCovers.cover3{
+        order: 2;
+    }
+
+
+
+    .profile_covers .partCovers.cover3 .roaf{
+        /* min-height: 150%; */
+        min-height: 100%;
+        width: 2px;
+        background-color: rgb(0, 0, 0);
+        animation: roaf 5s infinite ease-in-out;
+        transform-origin: top;
+        rotate: -35deg;
+        position: relative;
+    }
+    .profile_covers .partCovers.cover3 .roaf::before{
+       
+        height: 80px;
+        width: 180px;
+        font-size: 15px;
+        text-align: center;
+    }
+
+
+
+
+}
+
+
+@media screen and (max-width: 800px ) {
+    .profile_covers{
+        background-size: 100% auto;
+    }
+     
+    .profile_covers .partCovers.cover1 .cv1paras{
+        margin-left: 10px;
+        
+        transform: translateY(80vw);
+        transition: 0.5s;
+        transition-delay: calc(var(--i)*0.1s);
+        font-size: 15px;
+    }
+    
+ 
+    .profile_covers .partCovers.cover1 .cv1paras.portfolioBtn a{
+        background-color: rgb(107, 22, 255);
+        padding: 7px 8px;
+        color: white;
+        font-size: 13px;
+    }
+    
+    
+    .profile_covers .partCovers.cover1::after{
+        width: 80%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
+    
+    .profile_covers .partCovers.cover2{
+        height: 150px; width: 150px;
+    }
+    
+
+}

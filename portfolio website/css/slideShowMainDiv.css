@@ -53,6 +53,7 @@
     width: auto;
     display: flex;
     gap: 10px;
+    text-wrap: nowrap;
     animation: slider var(--t) infinite linear;
     /* transform: translateX(-30%); */
 }

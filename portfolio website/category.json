@@ -1,0 +1,208 @@
+[
+    {
+        "id":"posts",
+        "title":"My Post Design",
+        "category":"posts",
+        "popular":"",
+        "tags":["Social Post","post design", "design", "attractive post"],
+        "image":[
+          
+            {
+                "href":"/portfolio website/images/desings/adsposts/burger post 2.jpg",
+                "description":"The Burger Post Design"
+   
+            },
+            {
+                "href":"/portfolio website/images/desings/adsposts/burger post.jpg",
+                "description":"The Product Post Design"
+   
+            },
+            {
+                "href":"/portfolio website/images/desings/adsposts/Orange Blust.jpg",
+                "description":"Orange Juice Post Design"
+            },
+            {
+                "href":"/portfolio website/images/desings/adsposts/PASTA HOME.jpg",
+                "description":""
+            },
+            {
+                "href":"/portfolio website/images/desings/adsposts/saint post 2.jpg",
+                "description":""
+            }
+            
+        ]
+    },
+    {
+        "id":"pro-mani",
+        "title":"Product Manipulation Design",
+        "category":"prod-mani",
+        "popular":"",
+        "tags":[],
+        "image":[
+            {
+            "href":"/portfolio website/images/desings/manipulation/coffee 1.2.jpg",
+            "description":"The Realistic Product Ads Design"
+                
+            },
+            {
+            "href":"/portfolio website/images/desings/manipulation/bottle collection.jpg",
+            "description":""
+    
+            },
+            {
+            "href":"/portfolio website/images/desings/manipulation/shoes.jpg",
+            "description":""
+    
+            }
+           
+        ]
+    },
+    {
+        "id":"cards",
+        "title":"Visiting card Design",
+        "category":"cards",
+        "popular":"",
+        "tags":[],
+        "image":[
+           
+            {
+                "href":"/portfolio website/images/desings/visitingcard/visiting 6.jpg",
+                "description":""
+            },
+            {
+                "href":"/portfolio website/images/desings/visitingcard/visiting 7.jpg",
+                "description":""
+            },
+            {
+                "href":"/portfolio website/images/desings/visitingcard/vsiitng card mockup img 2.jpg",
+                "description":""
+            },
+            {
+                "href":"/portfolio website/images/desings/visitingcard/vsiitng card mockup img 3.jpg",
+                "description":""
+            },
+            {
+                "href":"/portfolio website/images/desings/visitingcard/card MOCKUP 4.jpg",
+                "description":""
+            },
+            {
+                "href":"/portfolio website/images/desings/visitingcard/vsiitng 7.jpg",
+                "description":""
+            }
+        ]
+    },
+    {
+        "id":"logos",
+        "title":"My Logo Design",
+        "category":"logos",
+        "popular":"",
+        "tags":[],
+        "image":[
+            {
+                "href":"/portfolio website/images/logos/logo-11.jpg",
+                "description":""
+            },
+            {
+                "href":"/portfolio website/images/logos/logo-02.jpg",
+                "description":"Logo Of Color Painting Shop"
+            },
+            {
+                "href":"/portfolio website/images/logos/logo-05.jpg",
+                "description":""
+            },
+            {
+                "href":"/portfolio website/images/logos/logo-07.jpg",
+                "description":""
+            },
+            {
+                "href":"/portfolio website/images/logos/logo-08.jpg",
+                "description":""
+            },
+            {
+                "href":"/portfolio website/images/logos/logo-09.jpg",
+                "description":""
+            },
+            {
+                "href":"/portfolio website/images/logos/logo-10.jpg",
+                "description":""
+            },
+            
+            {
+                "href":"/portfolio website/images/logos/logo_Artboard 13.jpg",
+                "description":""
+            }
+        ]
+    },
+    {
+        "id":"thumbline",
+        "title":"My Thumbline Design",
+        "category":"thumblines",
+        "popular":"",
+        "tags":["Adventure Thumbline Design", "Adventure", "ভ্রমণ থাম্বলাইন"],
+        "image":[
+            
+            {
+                "href":"/portfolio website/images/desings/thumblines/ssc2025.jpg",
+                "description":"Eduactional Thumbline Design Bangladesh"
+            },
+            {
+                "href":"/portfolio website/images/desings/thumblines/Business.jpg",
+                "description":"Business Ideas Blog"
+            },
+            {
+                "href":"/portfolio website/images/desings/thumblines/egyptTobd.jpg",
+                "description":"Adventure Blog"
+            },
+            {
+                "href":"/portfolio website/images/desings/thumblines/slice of bread.jpg",
+                "description":"Story Telling"
+            }
+        ]
+    },
+    {
+        "id":"tshirt",
+        "title":"T-shirt Designs",
+        "category":"tshirt",
+        "popular":"",
+        "tags":["T-shirt Design", "tshirt design", "bangladeshi design", "awesome design"],
+        "image":[
+            {
+                "href":"/portfolio website/images/desings/Tshirt/Does Hard Work TSHIRT WHITE.jpg",
+                "description":""
+            },
+            {
+                "href":"/portfolio website/images/desings/Tshirt/NEW YEAR 2  2025.jpg",
+                "description":""
+            },
+            {
+                "href":"/portfolio website/images/desings/Tshirt/NEW YEAR 2 BLACK  2025.jpg",
+                "description":""
+            },
+            {
+                "href":"/portfolio website/images/desings/Tshirt/NEW YEAR 2025.jpg",
+                "description":""
+            },
+            {
+                "href":"/portfolio website/images/desings/Tshirt/NEW YEAR BLACK  2025.jpg",
+                "description":""
+            },
+            {
+                "href":"/portfolio website/images/desings/Tshirt/success 2 black t.jpg",
+                "description":""
+            },
+            {
+                "href":"/portfolio website/images/desings/Tshirt/what tshirt black.jpg",
+                "description":""
+            },
+            {
+                "href":"portfolio website/images/desings/Tshirt/what tshirt.jpg",
+                "description":""
+            }
+        ]
+    }
+    
+    
+
+]
+
+

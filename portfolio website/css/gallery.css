@@ -1,0 +1,390 @@
+
+
+
+
+.tags-wrapper {
+    width: 80%;
+    position: sticky;
+    top: 70px;
+    z-index: 800;
+
+}
+
+.tagsMainDiv{
+    display: flex;
+    /* min-width: 70%; */
+    width: 100%;
+    max-width: 95%;
+    font-size: 15px;
+    margin-top: 30px;
+    height: 30px;
+    align-items: center;
+    justify-content: start;
+    gap: 20px;
+
+    /* background-color: red; */
+}
+
+.tagsMainDiv button{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    background-color:  aliceblue;
+    padding: 5px 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    text-wrap: nowrap;
+    border: 0.5px solid rgba(85, 85, 85, 0.177);
+    
+}
+
+img.right-icon{
+    width: 20px; 
+    opacity: 0.5;
+    position: absolute;
+    display: none;
+
+    right: 0px;
+    top: 40%;
+    transform: translateY(50%);   
+}
+
+.tagsMainDiv button.active{
+    background-color:  rgb(73, 6, 215);
+    color: white;
+
+}
+
+
+.tagsMainDiv{
+    font-size: 14px;
+    /* gap: 10px; */
+    height: auto;
+    overflow-x: auto;
+    padding-right: 30px;
+    /* position: relative; */
+}
+
+/* .tagsMainDiv .fa-arrow-right{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height:40px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
+} */
+
+.tagsMainDiv::-webkit-scrollbar{
+    display: none;
+}
+
+/* .tagsMainDiv a{
+    min-width: 100px;
+    text-wrap: none;
+    height: 30px;
+} */
+
+
+
+
+
+.cateTitleandOthers{
+    display: flex;
+    width: 80%;
+    min-height: 70px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    position: sticky;
+    top: 90px;
+    z-index: 800;
+    background-color: aliceblue;
+}
+
+.cateTitleandOthers .buttonsLink{
+    padding: 0px 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.cateTitleandOthers .titleCate{
+    padding: 10px;
+    font-size: 20px;
+}
+
+
+.cateTitleandOthers .hiddenmsgIcon{
+    /* display: none; */
+    height: 30px;
+    width: 30px;
+}
+.cateTitleandOthers .msgBtn{
+    padding: 6px;
+    color: white;
+    font-size: 13px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border: none;
+    background-color: rgb(10, 100, 255);
+}
+
+.cateTitleandOthers .whatsappMsg{
+    color: black;
+    background-color: rgb(0, 228, 95);
+}
+
+
+
+
+
+.gallery_main_body{
+    width: 80%;
+    gap: 20px;
+
+    break-inside: avoid; 
+    column-count: 4;
+    column-gap: 15px;
+}
+.gallery_main_body.nocolumn{
+    column-count: 1;
+    
+}
+
+.displayError{
+    margin: 0px 15px;
+}
+
+.imageDiv_gallery{
+    height: auto;
+
+    margin-bottom: 10px;
+    padding: 10px;
+    animation: animImg 0.5s normal linear;
+
+    /* box-shadow: 1px 1px 3px 3px rgba(106, 19, 255, 0.077); */
+}
+
+.galleryImage{
+    width: 100%;
+    height: auto;
+}
+
+@keyframes animImg {
+    0%{
+        opacity: 0;
+
+    }
+    100%{
+        opacity: 100%;
+        /* transform: rotateY(360deg); */
+    }
+}
+
+.imageDiv_gallery .image_desc{
+    padding: 10px 0px;
+    text-align: left;
+    border-bottom: 2px solid gray;
+    /* color: gray; */
+}
+
+
+
+
+
+
+
+.desingDestails{
+    width: 80%;
+    height: 400px;
+    display: flex;
+    /* flex-wrap: wrap; */
+    gap: 20px;
+    justify-content: space-between;
+    margin-top: 100px;
+    /* background-color: rgb(228, 217, 255); */
+}
+
+.desingDestails .deatails{
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    /* min-width: 300px; */
+    /* background-color: rgba(118, 55, 255, 0.114); */
+
+}
+
+
+.desingDestails .deatails.softDet{
+    display: flex;
+    /* min-width: 300px; */
+    flex-direction: column;
+    gap: 20px;
+}
+
+.desingDestails .deatails.softDet .softTT{
+    font-size: 20px;
+    color: rgb(140, 0, 255);
+}
+
+
+.desingDestails .deatails.softDet .imageDiv{
+    display: flex;
+    gap: 10px;
+}
+.desingDestails .imageDiv img.soft-image{
+    height: 40px;
+    width: 40px;
+    object-fit: cover;
+}
+
+
+.desingDestails .deatails2{
+    /* width: 300px; */
+    
+}
+.desingDestails .deatails2 .desTT{
+    font-size: 20px;
+}
+
+.desingDestails .deatails2 .targetDiv{
+    margin-top: 30px;
+    width: 300px;
+
+}
+
+.desingDestails .deatails2 .targetDiv .targets{
+    padding: 10px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: rgb(188, 188, 255);
+}
+
+
+
+.desingDestails .keywords-Div{
+    /* width: 300px; */
+}
+
+.desingDestails .keywords-Div .key-title{
+    font-size: 20px;
+}
+
+.desingDestails .keywords-Div .keywords-body{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.desingDestails .keywords-Div .keywords-body .keywords{
+   padding: 5px 7px;
+   border-radius: 5px;
+   background-color: rgb(212, 231, 255);
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1700px) {
+    .gallery_main_body{
+        column-count: 3;
+    }
+}
+
+
+@media screen and (max-width:1300px) {
+    .desingDestails{
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+ 
+    .desingDestails .deatails .targetDiv{
+        width: auto;
+    }
+
+    .desingDestails .deatails{
+        width: 47%;
+    }
+
+    .desingDestails .keywords-Div{
+        width: 100%;
+    }
+}
+
+
+
+
+
+@media screen and (max-width:900px) {
+    .gallery_main_body{
+        column-count: 2;
+    }
+
+    .cateTitleandOthers .linktext{
+        display: none;
+    }
+   
+}
+
+
+@media screen and (max-width:850px) {
+    img.right-icon{
+        display: block;
+    }
+}
+/* @media screen and (max-width:800px) {
+   .desingDestails .deatails{
+    width: 100%;
+    min-width: auto;
+   }
+} */
+
+
+
+@media screen and (max-width:600px) {
+    .gallery_main_body{
+        column-count: 1;
+    }
+
+    .desingDestails .deatails{
+        width: 100%;
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .cateTitleandOthers{
+        width: 95%;
+    }
+    
+    .gallery_main_body{
+        width: 95%;
+    }
+}
+
+
+@media screen and (max-width: 400px) {
+    .cateTitleandOthers .hiddenmsgIcon{
+        height: 25px;width: 25px;
+    }
+}
+
+
+
+
+
+
+
+

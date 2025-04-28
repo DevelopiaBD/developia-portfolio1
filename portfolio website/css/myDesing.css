@@ -141,7 +141,7 @@ nav .navbar{
     flex-wrap: wrap;
     justify-content: space-evenly;
     width: 100%;
-    /* background-color: red; */
+    background-color: red;
 }
 
 
@@ -185,7 +185,19 @@ nav .navbar{
     break-inside: avoid;
     border: 2px solid rgb(255, 255, 255);
     margin-bottom: 10px;
+    position: relative;
+    user-select: none;
+
     /* background-color: yellow; */
+}
+
+
+.bodyMainStart .desingsFullDiv .images::before{
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
 }
 
 .bodyMainStart .images img{

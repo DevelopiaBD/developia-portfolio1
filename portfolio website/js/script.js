@@ -70,15 +70,14 @@ window.addEventListener("scroll", (e)=>{
     console.log(window.innerHeight < 250);
 
 
-    if(window.scrollY > 80){
-        console.log("80");
-        experArrow.classList.add("remove")
-        // experArrow.style.opacity="0";
-    }else{
-        experArrow.classList.remove("remove")
+    // if(window.scrollY > 80){
+    //     console.log("80");
+    //     experArrow.classList.add("remove")
+        
+    // }else{
+    //     experArrow.classList.remove("remove")
 
-        // experArrow.style.opacity="1";
-    }
+    // }
 
 
     iconsAndDes.forEach((section, i) => {
