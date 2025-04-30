@@ -1,7 +1,7 @@
 const express = require("express");
 const path = require('path');
 
-const app = express()
+const app = express();
 
 app.use(express.static(path.join(__dirname, '..')));
 
@@ -13,6 +13,10 @@ app.get('/', (req, res) => {
 app.get('/desings/:id', (req, res) => {
     res.sendFile(path.join(__dirname, '../portfolio website/html/dynamic-images.html'));
 });
+
+// app.get('*', (req, res) => {
+//     res.sendFile(path.join(__dirname, '../portfolio website/html/errorShowPage.html'));
+// });
 
 
 

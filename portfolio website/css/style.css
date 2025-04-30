@@ -168,7 +168,7 @@ body{
 
     border-top-left-radius: 5px;
     border-top-right-radius: 50px;
-    color: rgb(135, 70, 215);
+    color: rgb(101, 0, 224);
     font-family: "Outfit", sans-serif;
     
 }
@@ -277,9 +277,7 @@ footer{
 }
 
 
-footer .footerDivMain .OnlineServiceProfiles{
-    /* background-color: yellow; */
-}
+
 
 
 footer .footerDivMain .OnlineServiceProfiles .serviceLink{
@@ -324,9 +322,7 @@ footer .footerDivMain .FstWrite{
 
 
 
-footer .footerDivMain .socialMediaDiv .socialMediaTitle{
-    /* margin-bottom: 20px; */
-}
+
 
 
 a{
@@ -465,17 +461,7 @@ a{
 }
 
 
-.myLinksDiv .imgDiv{
-   
 }
-    /* .navbarFullDiv:only-child{
-        font-size: 10px;
-    }
 
-    .mainDiv{
-        transform: scale(0.5);
-        background-color: red;
-    } */
-}
 /* Main web cover Starts */
 
