@@ -280,8 +280,39 @@
                 "href":"portfolio website/images/desings/Tshirt/what tshirt.jpg",
                 "description":""
             }
-        ]
-    }
+
+            ]
+        },
+            {
+
+            "id":"covers",
+            "title":"TBook Cover Designs",
+            "category":"cover",
+            "popular":"",
+            "tags":[],
+            "image":[
+                {
+                    "href":"/portfolio website/images/desings/bookCovers/Book MOCKUP 5.png",
+                    "description":""
+                },
+                {
+                "href":"/portfolio website/images/desings/bookCovers/Book MOCKUP.jpg",
+                "description":""
+                },
+                {
+                "href":"/portfolio website/images/desings/bookCovers/Book MOCKUP 3.jpg",
+                "description":""
+                },
+                
+                {
+                "href":"/portfolio website/images/desings/bookCovers/Book MOCKUP 4.jpg",
+                "description":""
+                }
+               
+                
+                ]
+            }
+    
     
     
 
