@@ -194,6 +194,14 @@
             {
                 "href":"/portfolio website/images/desings/thumblines/gift.jpg",
                 "description":"Gift Item Thumbline"
+            },
+            {
+                "href":"/portfolio website/images/desings/thumblines/madina amar jaan thumbline.jpg",
+                "description":"Islamic Song Thumbline"
+            },
+            {
+                "href":"/portfolio website/images/desings/thumblines/naat review 1 jonmo amar nobir jogi 5.jpg",
+                "description":""
             }
             
         ]
@@ -224,9 +232,20 @@
         "tags":["T-shirt Design", "tshirt design", "bangladeshi design", "awesome design"],
         "image":[
             {
+                "href":"/portfolio website/images/desings/Tshirt/bangla tshirt.jpg",
+                "description":""
+            },
+            {
+                "href":"/portfolio website/images/desings/Tshirt/parents.jpg",
+                "description":""
+            },
+            
+            {
                 "href":"/portfolio website/images/desings/Tshirt/blessed black.jpg",
                 "description":""
             },
+           
+            
             {
                 "href":"/portfolio website/images/desings/Tshirt/blessed.jpg",
                 "description":""
@@ -239,10 +258,7 @@
                 "href":"/portfolio website/images/desings/Tshirt/neverstop.jpg",
                 "description":""
             },
-            {
-                "href":"/portfolio website/images/desings/Tshirt/parents.jpg",
-                "description":""
-            },
+         
             {
                 "href":"/portfolio website/images/desings/Tshirt/somepeople.jpg",
                 "description":""
