@@ -13,6 +13,11 @@
    
             },
             {
+                "href":"/portfolio website/images/desings/adsposts/Hoodie1.jpg",
+                "description":"The Clothing Ads Design"
+   
+            },
+            {
                 "href":"/portfolio website/images/desings/adsposts/burger post.jpg",
                 "description":"The Product Post Design"
    
@@ -71,13 +76,16 @@
         ]
     },
     {
-        "id":"cards",
+        "id":"cards", 
         "title":"Visiting card Design",
         "category":"cards",
         "popular":"",
         "tags":[],
         "image":[
-           
+            {
+                "href":"/portfolio website/images/desings/visitingcard/visiting_image_1.jpg",
+                "description":""
+            },
             {
                 "href":"/portfolio website/images/desings/visitingcard/visiting 6.jpg",
                 "description":""
@@ -175,6 +183,10 @@
         "tags":["Adventure Thumbline Design", "Adventure", "ভ্রমণ থাম্বলাইন"],
         "image":[
             
+            {
+                "href":"/portfolio website/images/desings/thumblines/miyanmarTosonali.jpg",
+                "description":"Eduactional Thumbline Design Bangladesh"
+            },
             {
                 "href":"/portfolio website/images/desings/thumblines/ssc2025.jpg",
                 "description":"Eduactional Thumbline Design Bangladesh"
