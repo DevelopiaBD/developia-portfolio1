@@ -67,7 +67,7 @@ const serviceTitle = document.querySelectorAll(".serviceTitle");
 
 window.addEventListener("scroll", (e)=>{
   
-    console.log(window.innerHeight < 250);
+    // console.log(window.innerHeight < 250);
 
 
     // if(window.scrollY > 80){

@@ -1,5 +1,11 @@
 import desings from "../category.json" with {"type":"json"};
 
+
+const titleHtml = document.querySelector('title');
+const faviconLink = document.querySelector('link[rel="icon"]');
+console.log(faviconLink);
+
+
 const gallery_main_body = document.querySelector(".gallery_main_body");
 const tagsMainDiv = document.querySelector(".tagsMainDiv");
 const desingDestails = document.querySelector(".desingDestails");
@@ -12,6 +18,14 @@ const idfromlink = linkUrl[linkUrl.length - 1];
 // সঠিক ডিজাইন খুঁজে বের করলাম
 const matchDesign = desings.find(des => des.id == idfromlink);
 console.log(matchDesign);
+
+console.log(matchDesign.image[0].href);
+
+//  Setting fav Icon?
+
+faviconLink.href=matchDesign.image[0].href;
+titleHtml.innerHTML=matchDesign.title + " | Abu Yousuf";
+
 
 
 if(!matchDesign){

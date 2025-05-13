@@ -229,6 +229,14 @@
         "image":[
             
             {
+                "href":"/portfolio website/images/desings/thumblines/COVER 2.jpg",
+                "description":""
+            },
+            {
+                "href":"/portfolio website/images/desings/thumblines/5th August.jpg",
+                "description":"Documentory Bangladesh"
+            },
+            {
                 "href":"/portfolio website/images/desings/thumblines/miyanmarTosonali.jpg",
                 "description":"Travel Blogs"
             },
@@ -368,17 +376,21 @@
             {
 
             "id":"covers",
-            "title":"TBook Cover Designs",
+            "title":"Book Cover Designs",
             "category":"cover",
             "popular":"",
             "tags":[],
             "image":[
                 {
+                    "href":"/portfolio website/images/desings/bookCovers/book mockup 2.jpg",
+                    "description":""
+                },
+                {
                     "href":"/portfolio website/images/desings/bookCovers/book mockup 1.jpg",
                     "description":""
                 },
                 {
-                    "href":"/portfolio website/images/desings/bookCovers/book mockup 2.jpg",
+                    "href":"/portfolio website/images/desings/bookCovers/Book MOCKUP 3.jpg",
                     "description":""
                 }
                
