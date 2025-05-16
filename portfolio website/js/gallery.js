@@ -19,11 +19,11 @@ const idfromlink = linkUrl[linkUrl.length - 1];
 const matchDesign = desings.find(des => des.id == idfromlink);
 console.log(matchDesign);
 
-console.log(matchDesign.image[0].href);
+console.log("https://developiabd.knowledgehut.online"+ matchDesign.image[0].href);
 
 //  Setting fav Icon?
 
-faviconLink.href=matchDesign.image[0].href;
+faviconLink.href= "https://developiabd.knowledgehut.online" + matchDesign.image[0].href;
 titleHtml.innerHTML=matchDesign.title + " | Abu Yousuf";
 
 
