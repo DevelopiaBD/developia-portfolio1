@@ -422,6 +422,38 @@
                 }
                
                 ]
+            },
+    
+            {
+
+            "id":"social",
+            "title":"Social Media Designs",
+            "category":"socialmedia",
+            "popular":"",
+            "tags":[],
+            "image":[
+                
+                {
+                    "href":"/portfolio website/images/desings/Social Media/digital business offer.jpg",
+                    "description":""
+                },
+                {
+                    "href":"/portfolio website/images/desings/Social Media/amar desh green.jpg",
+                    "description":""
+                },
+                {
+                    "href":"/portfolio website/images/desings/Social Media/amar desh.jpg",
+                    "description":""
+                }
+                
+                ,
+                {
+                    "href":"/portfolio website/images/desings/Social Media/50off2.jpg",
+                    "description":""
+                }
+              
+               
+                ]
             }
     
     

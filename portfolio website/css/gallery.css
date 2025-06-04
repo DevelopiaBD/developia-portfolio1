@@ -152,6 +152,7 @@ img.right-icon{
     column-count: 4;
     column-gap: 15px;
 }
+
 .gallery_main_body.nocolumn{
     column-count: 1;
     
