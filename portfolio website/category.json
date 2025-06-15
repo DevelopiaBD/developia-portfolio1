@@ -154,21 +154,33 @@
         "popular":"",
         "tags":[],
         "image":[
+            {
+            "href":"/portfolio website/images/logos/NEHA_LETTERS_Artboard 29.jpg",
+            "description":""
+            },
           
             {
                 "href":"/portfolio website/images/desings/logosvvv/triple logo amboss2.jpg",
                 "description":""
             },
             {
-                "href":"/portfolio website/images/desings/logosvvv/Farabi Multi.jpg",
+                "href":"/portfolio website/images/logos/Abrar_Khan_Artboard 14.jpg",
+                "description":""
+            },
+         
+       
+            {
+                "href":"/portfolio website/images/logos/BISCUTTO_Artboard 29.jpg",
+                "description":""
+            },
+         
+
+            {
+                "href":"/portfolio website/images/logos/REEVISTA.jpg",
                 "description":""
             },
             {
-                "href":"/portfolio website/images/desings/logosvvv/Woden mahel.jpg",
-                "description":""
-            },
-            {
-                "href":"/portfolio website/images/desings/logosvvv/sqauret.jpg",
+                "href":"/portfolio website/images/logos/sqauret_Artboard 18.jpg",
                 "description":""
             },
             {
@@ -180,7 +192,7 @@
                 "description":""
             },
             {
-                "href":"/portfolio website/images/logos/logo-02.jpg",
+                "href":"/portfolio website/images/logos/logo-02-02.jpg",
                 "description":"Logo Of Color Painting Shop"
             },
             {
@@ -188,10 +200,7 @@
                 "description":"Logo Of Pizza Shop"
             },
           
-            {
-                "href":"/portfolio website/images/logos/logo-05.jpg",
-                "description":""
-            },
+
             {
                 "href":"/portfolio website/images/logos/logo-07.jpg",
                 "description":""
@@ -203,10 +212,7 @@
             },
         
             
-            {
-                "href":"/portfolio website/images/logos/logo_Artboard 13.jpg",
-                "description":""
-            },
+
             
             {
                 "href":"/portfolio website/images/desings/logosvvv/mockup1.jpg",
